@@ -1,0 +1,5 @@
+[user]
+	name = James Thomas
+	email = james.thomas@uk.ibm.com
+[core]
+	excludesfile = /Users/james/.gitignore_global
