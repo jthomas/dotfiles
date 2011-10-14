@@ -11,6 +11,9 @@ set number
 set background=dark
 set hidden
 
+" Have swap files stored in a single place
+set directory=~/.vim/swap,.
+
 " Search options
 set incsearch
 set hlsearch
