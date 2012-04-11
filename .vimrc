@@ -38,3 +38,5 @@ let g:vimwiki_list = [{'path': '~/Dropbox/Notes'}]
 
 " Make Nerdtree open automatically if no files are specified
 autocmd vimenter * if !argc() | NERDTree | endif
+" Increase default nerdtree width
+let g:NERDTreeWinSize = 40 
