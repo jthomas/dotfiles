@@ -33,3 +33,8 @@ nmap <silent> <leader>n :NERDTreeToggle<CR>
 nnoremap ; :
 " Easy clearing of highlighted searches
 nmap <silent> <leader>/ :nohlsearch<CR>
+
+let g:vimwiki_list = [{'path': '~/Dropbox/Notes'}]
+
+" Make Nerdtree open automatically if no files are specified
+autocmd vimenter * if !argc() | NERDTree | endif
