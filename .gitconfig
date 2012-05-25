@@ -3,3 +3,5 @@
 	email = james.thomas@uk.ibm.com
 [core]
 	excludesfile = /Users/james/.gitignore_global
+[color]
+	ui = 1
