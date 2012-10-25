@@ -1,4 +1,4 @@
-/*jslint browser: true, regexp: true, nomen: true */
+/*jslint browser: true, regexp: true, nomen: true, sloppy: true */
 /*global dojo, define, require */
 
 /* vim: set ft=javascript: */
